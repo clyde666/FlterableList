@@ -17,4 +17,4 @@ function filterNames () {
 			li[i].style.display = 'none';
 		}
 	};
-}
+};
