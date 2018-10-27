@@ -16,5 +16,5 @@ function filterNames () {
 		}else {
 			li[i].style.display = 'none';
 		}
-	};
+	}
 };
