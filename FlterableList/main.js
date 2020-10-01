@@ -7,7 +7,7 @@ filterInput.addEventListener('keyup', filterNames);
 function filterNames () {
 	let filterValue = document.getElementById('filterInput').value.toUpperCase();
 	
-	//loop througt collection items
+	// Loop througt collection items
 	for (var i = 0; i < li.length; i++) {
 		let a = li[i].getElementsByTagName('a')[0];
 
