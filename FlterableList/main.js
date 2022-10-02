@@ -10,7 +10,7 @@ function filterNames () {
 	
 	// Loop througt collection items
 	for (var i = 0; i < li.length; i++) {
-		let a = li[i].getElementsByTagName('a')[0];
+		let a = li[i].getElementsByTagName('a')[0]
 
 		if (a.innerHTML.toUpperCase().indexOf(filterValue) > -1) {
 			li[i].style.display = ''
