@@ -4,7 +4,7 @@ let li = ul.querySelectorAll('li.colection-item');
 
 filterInput.addEventListener('keyup', filterNames);
 
-// Filter Names
+// Filter 
 function filterNames () {
 	let filterValue = document.getElementById('filterInput').value.toUpperCase()
 	
