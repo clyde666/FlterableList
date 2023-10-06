@@ -1,8 +1,8 @@
-let filterInput = document.getElementById('filterInput');
-let ul = document.getElementById('names');
-let li = ul.querySelectorAll('li.colection-item');
+let filterInput = document.getElementById('filterInput')
+let ul = document.getElementById('names')
+let li = ul.querySelectorAll('li.colection-item')
 
-filterInput.addEventListener('keyup', filterNames);
+filterInput.addEventListener('keyup', filterNames)
 
 // Filter 
 function filterNames () {
